@@ -1,0 +1,92 @@
+.HomePage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 62%;
+
+    @media screen and (max-width: 1000px) {
+        width: 75%;
+    }
+
+
+    @media screen and (min-width: 520px) and (max-width: 700px) {
+        width: 85%;
+    }
+    
+}
+
+.hero-text {
+    text-align: center;
+    
+    color: white;
+    font-size: 2.2rem;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 1px;
+    
+    span {
+        color: #037fff;
+        
+    }
+
+    
+    @media screen and (max-width: 1000px) {
+      
+        font-size: 1.5rem;
+        text-align: left;
+    }
+}
+
+.h-sub-text {
+    line-height: 24px;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 0.85rem;
+
+    @media screen and (max-width: 1000px) {
+        line-height: 40px;
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 520px) and (max-width: 700px) {
+        line-height: 24px;
+        font-size: 1rem;
+        text-align: justify;
+        margin-top: 10px;
+    }
+}
+
+.icons {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+
+    @media screen and (max-width: 1000px) {
+        margin-top: 35px;
+    }
+    .icon-holder {
+        .icon {
+            margin: 0 2rem;
+            font-size: 2.3rem;
+            color: #a4acc4;
+        }
+    }
+
+
+
+    .icon:hover {
+        animation: spin 0.7s infinite ease-out;
+        color: #037fff;
+        
+    }
+
+    @keyframes spin {
+        100% {
+            transform: rotateY(360deg);
+        }
+    }
+}

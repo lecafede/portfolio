@@ -1,0 +1,103 @@
+.mi-resume-wrapper {
+  justify-content: space-between;
+ }
+
+ .mi-resume {
+    line-height: 30px;
+    margin-top: 2rem;
+    
+  &-wrapper {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    border-left: 3px solid #2e344e;
+  }
+
+  & {
+    display: flex;
+  }
+
+  &-summary {
+    align-self: flex-start;
+    flex: 0 0 220px;
+    max-width: 220px;
+    padding-left: 20px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -12px;
+      top: 6px;
+      height: 15px;
+      width: 15px;
+      border-radius: 100px;
+      background: #10121b;
+      border: 3px solid #2e344e;
+    }
+  }
+
+  &-year {
+    color: #a4acc4;
+    margin-bottom: 0;
+  }
+
+  &-company {
+    color: #ffffff;
+  }
+
+  &-details {
+    position: relative;
+    padding-left: 50px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 15px;
+      height: 1px;
+      width: 30px;
+      background: #2e344e;
+    }
+
+    h5 {
+      color: #037fff;
+      margin-bottom: 0;
+      font-weight: 700;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: 0.85rem;
+      text-align: justify;
+    }
+  }
+
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    &-summary {
+      flex: 0 0 170px;
+      max-width: 170px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    &-summary {
+      flex: 0 0 170px;
+      max-width: 170px;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    flex-wrap: wrap;
+
+    &-details {
+      padding-left: 20px;
+
+      &::before {
+        left: 8px;
+        top: -15px;
+        width: 12px;
+      }
+    }
+  }
+}
+
