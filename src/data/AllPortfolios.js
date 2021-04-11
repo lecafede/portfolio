@@ -6,6 +6,7 @@ import elinguage from '../img/portImages/elinguage.jpg';
 import swedish from '../img/portImages/Swedish.png';
 import social_network from '../img/portImages/Social_Network.jpg';
 import voice_assistant from '../img/portImages/voice-assistant.jpg';
+import hot_burgers from '../img/portImages/hot-burgers.jpg';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -67,17 +68,6 @@ const portfolios = [
     },
     {
         id: 6,
-        category: 'Python',
-        link1: '',
-        link2: 'https://github.com/lecafede/Virtual-Assistant/tree/master/Virtual%20Assistant',
-        icon1: '',
-        icon2: faGithub,
-        image: voice_assistant,
-        title: 'Voice Assistant',
-        subtitle: 'Technology: Python / PyQT5 / OOP'
-    },
-    {
-        id: 7,
         category: 'ReactJS',
         link1: '',
         link2: 'https://github.com/lecafede/ReactJS_social-network',
@@ -87,6 +77,29 @@ const portfolios = [
         title: 'Social Network (In Developing)',
         subtitle: 'Technology: ReactJS / Redux'
     },
+    {
+        id: 6,
+        category: 'ReactJS',
+        link1: 'https://hot-burgers-react-js.vercel.app/',
+        link2: 'https://github.com/lecafede/hot-burgers-react.js',
+        icon1: faLink,
+        icon2: faGithub,
+        image: hot_burgers,
+        title: 'Hot-Burgers Application',
+        subtitle: 'Technology: ReactJS / Firebase'
+    },
+    {
+        id: 7,
+        category: 'Python',
+        link1: '',
+        link2: 'https://github.com/lecafede/Virtual-Assistant/tree/master/Virtual%20Assistant',
+        icon1: '',
+        icon2: faGithub,
+        image: voice_assistant,
+        title: 'Voice Assistant',
+        subtitle: 'Technology: Python / PyQT5 / OOP'
+    },
+
 ]
 
 export default portfolios;
