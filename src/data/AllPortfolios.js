@@ -78,7 +78,7 @@ const portfolios = [
         subtitle: 'Technology: ReactJS / Redux'
     },
     {
-        id: 6,
+        id: 7,
         category: 'ReactJS',
         link1: 'https://hot-burgers-react-js.vercel.app/',
         link2: 'https://github.com/lecafede/hot-burgers-react.js',
@@ -89,7 +89,7 @@ const portfolios = [
         subtitle: 'Technology: ReactJS / Firebase'
     },
     {
-        id: 7,
+        id: 8,
         category: 'Python',
         link1: '',
         link2: 'https://github.com/lecafede/Virtual-Assistant/tree/master/Virtual%20Assistant',
