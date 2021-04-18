@@ -34,7 +34,7 @@ function ImageSection() {
                         <p>Ukraine, Vinnitsa</p>
                     </div>          
                 </div>
-                <form action="https://drive.google.com/file/d/1qkH1JO8BaZtoraD076L0wFLg3evn34X2/view?usp=sharing" target="_blank">
+                <form action="https://drive.google.com/file/d/1e-dhJLthv6K5TsMY302zoADmY-x52VkR/view?usp=sharing" target="_blank">
                     <button class="button button-download"><span>Download CV  <FontAwesomeIcon icon={faDownload} className="portfolio-icon"></FontAwesomeIcon></span>   </button>
                 </form>
             </div>
