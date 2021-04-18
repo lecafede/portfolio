@@ -86,7 +86,7 @@ const portfolios = [
         icon2: faGithub,
         image: hot_burgers,
         title: 'Hot-Burgers Application',
-        subtitle: 'Technology: ReactJS / Firebase'
+        subtitle: 'Technology: ReactJS / Firebase (Realtime Database, Authentication)'
     },
     {
         id: 8,
